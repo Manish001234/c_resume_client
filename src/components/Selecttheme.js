@@ -55,7 +55,7 @@ function Selecttheme() {
   useEffect(() => {
     async function getthemes() {
       try {
-        const res = await axios.get("http://localhost:5000/api/themes", {
+        const res = await axios.get("https://resumecraft-35ij.onrender.com/api/themes", {
           query: `query fetchtheme {
                     themes {
                       themename
