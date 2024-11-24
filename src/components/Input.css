@@ -285,4 +285,7 @@ input[type="radio"]{
     .input-form input::placeholder{
         font-size: 11px;
     }
+    .input-main{
+        width: 90%;
+    }
 }
