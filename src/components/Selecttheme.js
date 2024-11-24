@@ -65,7 +65,7 @@ function Selecttheme() {
                     }
                   }`,
         });
-        console.log("ssss", res);
+        // console.log("ssss", res);
         if (!userredux.personal) {
           navigate("/");
         }
